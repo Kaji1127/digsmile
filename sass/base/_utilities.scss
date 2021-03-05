@@ -1,0 +1,7 @@
+.u-right-text {
+	text-align: right;
+
+	@include respond(tab-port) {
+		text-align: left;
+	}
+}

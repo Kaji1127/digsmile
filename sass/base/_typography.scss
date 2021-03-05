@@ -1,0 +1,29 @@
+body {
+	font-family: 'Montserrat', '游ゴシック体', sans-serif;
+	line-height: 1.5;
+	color: $color-dark;
+	font-size: $default-font-size;
+}
+
+.heading-primary {
+	color: $color-white;
+	text-transform: uppercase;
+
+	&--main {
+		display: block;
+		font-weight: 800;
+		font-size: 7.2rem;
+	}
+
+	&--sub {
+		display: block;
+		font-weight: 700;
+		font-size: 2rem;
+	}
+}
+
+.heading-secondary {
+	font-size: 3.2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.068em;
+}

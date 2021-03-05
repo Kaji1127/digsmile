@@ -1,0 +1,52 @@
+.about {
+	position: relative;
+	height: 60rem;
+	@include respond(tab-port) {
+		width: 100vw;
+		margin: 0 -3rem;
+		overflow: hidden;
+	}
+	@include respond(phone) {
+		width: 100vw;
+		margin: 0 -1.5rem;
+	}
+	&__img-box {
+		position: absolute;
+		background-color: $color-black;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+	}
+
+	&__img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		opacity: 0.73;
+	}
+
+	&__text-box {
+		width: 59rem;
+		padding: 5rem 3rem;
+		background-color: rgba($color-white, 0.95);
+		position: absolute;
+		top: 50%;
+		left: 5rem;
+		transform: translateY(-50%);
+		z-index: 2;
+
+		@include respond(tab-port) {
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		@include respond(phone) {
+			width: 92%;
+		}
+	}
+
+	&__text-box-inner {
+		margin: 3rem 0;
+		line-height: 2;
+	}
+}

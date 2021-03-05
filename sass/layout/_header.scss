@@ -1,0 +1,76 @@
+.header {
+	height: 100vh;
+	position: relative;
+
+	&__logo-box {
+		position: absolute;
+		top: 3rem;
+		left: 6rem;
+
+		@include respond(tab-port) {
+			top: 3.4rem;
+			left: 3rem;
+		}
+		@include respond(phone) {
+			top: 2rem;
+			left: 1.5rem;
+		}
+	}
+	&__logo {
+		@include respond(phone) {
+			width: 19rem;
+		}
+	}
+
+	&__bg {
+		width: 76%;
+		height: 85%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-image: url(../img/kv-img.png);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+		filter: brightness(66%);
+
+		@media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+			background-image: url(../img/kv-img@2x.png);
+		}
+
+		@include respond(tab-port) {
+			width: 78%;
+			height: 86%;
+		}
+	}
+
+	&__text-box {
+		position: absolute;
+		top: 20%;
+		right: 13%;
+
+		@include respond(tab-port) {
+			top: 28%;
+			right: 10%;
+		}
+		@include respond(phone) {
+			top: 25%;
+			right: 5%;
+		}
+	}
+
+	&__black {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 54%;
+		height: 100%;
+		background-color: $bg-black;
+		z-index: -2;
+
+		@include respond(tab-port) {
+			width: 73%;
+		}
+	}
+}

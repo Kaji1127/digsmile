@@ -1,0 +1,49 @@
+.contact {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	@include respond(tab-port) {
+		flex-direction: column-reverse;
+		align-items: flex-start;
+	}
+
+	&__text-box {
+		width: 40%;
+		margin-right: 8rem;
+		line-height: 2;
+
+		@include respond(tab-port) {
+			width: 67%;
+			margin-right: 0;
+		}
+		@include respond(phone) {
+			width: 100%;
+		}
+	}
+	&__text-box-inner {
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+		@include respond(tab-port) {
+			margin-top: 0;
+		}
+	}
+
+	&__img-box {
+		width: 52%;
+		background-color: $color-black;
+
+		@include respond(tab-port) {
+			width: 67%;
+		}
+		@include respond(phone) {
+			width: 100%;
+		}
+	}
+
+	&__img {
+		width: 100%;
+		opacity: 0.74;
+		display: block;
+	}
+}
