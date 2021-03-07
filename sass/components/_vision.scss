@@ -1,0 +1,20 @@
+.vision {
+	margin-left: 23rem;
+
+	&__text-content {
+		margin-top: 3rem;
+	}
+
+	&__text-inner {
+		margin-top: 3rem;
+	}
+	&__text-box {
+		&:not(:last-child) {
+			margin-bottom: 5rem;
+		}
+	}
+
+	&__text {
+		line-height: 2;
+	}
+}

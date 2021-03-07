@@ -201,6 +201,17 @@ body {
   .works-culture__text {
     margin: 3rem 0; }
 
+.vision {
+  margin-left: 23rem; }
+  .vision__text-content {
+    margin-top: 3rem; }
+  .vision__text-inner {
+    margin-top: 3rem; }
+  .vision__text-box:not(:last-child) {
+    margin-bottom: 5rem; }
+  .vision__text {
+    line-height: 2; }
+
 .header {
   height: 100vh;
   position: relative; }
