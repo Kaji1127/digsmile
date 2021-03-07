@@ -1,13 +1,13 @@
-.header {
-	&__bg {
-		background-image: url(../img/about-kv.png);
-		background-position: 0 0;
+.aboutus-bgi {
+	background-image: url(../img/about-kv.png);
+	background-position: 0 0;
 
-		@media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
-			background-image: url(../img/about-kv@2x.png);
-		}
+	@media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+		background-image: url(../img/about-kv@2x.png);
 	}
+}
 
+.header {
 	&__text-box {
 		top: 30%;
 	}
