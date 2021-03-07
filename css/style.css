@@ -40,6 +40,9 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.068em; }
 
+.heading-tertiary {
+  font-size: 2.4rem; }
+
 .u-right-text {
   text-align: right; }
   @media only screen and (max-width: 56.25em) {
@@ -401,6 +404,12 @@ body {
 .header__bg {
   background-image: url(../img/about-kv.png);
   background-position: 0 0; }
+  @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+    .header__bg {
+      background-image: url(../img/about-kv@2x.png); } }
 
 .header__text-box {
   top: 30%; }
+
+.section-vision {
+  padding: 12rem 0; }
