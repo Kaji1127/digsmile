@@ -1,0 +1,16 @@
+.company {
+	&__info {
+		width: 73%;
+		margin-left: auto;
+		margin-bottom: 4rem;
+	}
+	&__overview {
+		display: flex;
+		padding: 2rem 0;
+		border-bottom: 1px solid #ddd;
+	}
+	&__overview-title {
+		width: 10rem;
+		font-weight: 700;
+	}
+}

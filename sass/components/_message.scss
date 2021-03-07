@@ -1,0 +1,45 @@
+.message {
+	position: relative;
+	height: 100rem;
+
+	&__img-box {
+		position: absolute;
+		top: 0;
+		left: 0;
+		max-width: 42rem;
+		overflow: hidden;
+		background-color: $color-black;
+		// display: none;
+	}
+
+	&__img {
+		width: 100%;
+		transform: scale(2.2);
+		opacity: 0.83;
+	}
+	&__text-content {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		width: 70%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: $bg-grey;
+		padding-top: 12rem;
+		padding-bottom: 9rem;
+		z-index: -1;
+	}
+
+	&__text-inner {
+		max-width: 40rem;
+	}
+
+	&__text-box {
+		margin-top: 3rem;
+		&:not(:first-child) {
+			margin-top: 5rem;
+		}
+	}
+}

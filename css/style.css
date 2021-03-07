@@ -52,6 +52,10 @@ body {
 .u-height {
   height: 60vh !important; }
 
+.u-border-b {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 3rem; }
+
 .about {
   position: relative;
   height: 60rem; }
@@ -200,6 +204,54 @@ body {
     opacity: 0.8; }
   .works-culture__text {
     margin: 3rem 0; }
+
+.company__info {
+  width: 73%;
+  margin-left: auto;
+  margin-bottom: 4rem; }
+
+.company__overview {
+  display: flex;
+  padding: 2rem 0;
+  border-bottom: 1px solid #ddd; }
+
+.company__overview-title {
+  width: 10rem;
+  font-weight: 700; }
+
+.message {
+  position: relative;
+  height: 100rem; }
+  .message__img-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 42rem;
+    overflow: hidden;
+    background-color: #000; }
+  .message__img {
+    width: 100%;
+    transform: scale(2.2);
+    opacity: 0.83; }
+  .message__text-content {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding-top: 12rem;
+    padding-bottom: 9rem;
+    z-index: -1; }
+  .message__text-inner {
+    max-width: 40rem; }
+  .message__text-box {
+    margin-top: 3rem; }
+    .message__text-box:not(:first-child) {
+      margin-top: 5rem; }
 
 .vision {
   margin-left: 23rem; }
@@ -424,3 +476,9 @@ body {
 
 .section-vision {
   padding: 12rem 0; }
+
+.section-message {
+  padding-bottom: 12rem; }
+
+.section-company {
+  padding-bottom: 12rem; }
