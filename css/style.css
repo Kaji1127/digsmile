@@ -47,7 +47,7 @@ body {
       text-align: left; } }
 
 .u-height {
-  height: 50vh !important; }
+  height: 60vh !important; }
 
 .about {
   position: relative;
@@ -397,3 +397,10 @@ body {
   @media only screen and (max-width: 37.5em) {
     .section-contact {
       padding-bottom: 4rem; } }
+
+.header__bg {
+  background-image: url(../img/about-kv.png);
+  background-position: 0 0; }
+
+.header__text-box {
+  top: 30%; }
