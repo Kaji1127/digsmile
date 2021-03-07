@@ -46,6 +46,9 @@ body {
     .u-right-text {
       text-align: left; } }
 
+.u-height {
+  height: 50vh !important; }
+
 .about {
   position: relative;
   height: 60rem; }
@@ -98,7 +101,10 @@ body {
   padding: 1rem 4rem;
   color: #fff;
   background-color: #000;
-  letter-spacing: 0.015em; }
+  letter-spacing: 0.015em;
+  transition: all 0.4s; }
+  .btn:hover {
+    box-shadow: 0rem 0.4rem 0.6rem rgba(0, 0, 0, 0.5); }
 
 .contact {
   display: flex;
@@ -338,10 +344,10 @@ body {
     right: -100%;
     z-index: 1000;
     background-color: rgba(34, 34, 34, 0.6);
-    transition: all 1s cubic-bezier(0.42, 0.03, 0, 1.35); }
+    transition: all 1s cubic-bezier(0.42, 0.03, 0, 1.05); }
   .navigation__open {
     right: 0;
-    transition: all 0.8s cubic-bezier(0.42, 0.03, 0, 1.35); }
+    transition: all 0.8s cubic-bezier(0.42, 0.03, 0, 1.05); }
   .navigation__list {
     width: 36%;
     height: 100vh;
