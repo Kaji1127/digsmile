@@ -321,6 +321,11 @@ body {
       @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
         .header__bg--about {
           background-image: url(../img/about-kv@2x.png); } }
+    .header__bg--contact {
+      background-image: url(../img/contact-kv.png); }
+      @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+        .header__bg--contact {
+          background-image: url(../img/contact-kv@2x.png); } }
     @media only screen and (max-width: 56.25em) {
       .header__bg {
         width: 78%;

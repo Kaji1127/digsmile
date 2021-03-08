@@ -52,6 +52,13 @@
 			}
 		}
 
+		&--contact {
+			background-image: url(../img/contact-kv.png);
+			@media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+				background-image: url(../img/contact-kv@2x.png);
+			}
+		}
+
 		@include respond(tab-port) {
 			width: 78%;
 			height: 86%;
