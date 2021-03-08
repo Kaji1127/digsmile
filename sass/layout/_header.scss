@@ -45,7 +45,7 @@
 
 		&--about {
 			background-image: url(../img/about-kv.png);
-			background-position: 0 0;
+			background-position: center top;
 
 			@media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
 				background-image: url(../img/about-kv@2x.png);

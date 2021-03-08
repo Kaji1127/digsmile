@@ -1,6 +1,10 @@
 .vision {
 	margin-left: 23rem;
 
+	@include respond(phone) {
+		margin-left: 0;
+	}
+
 	&__text-content {
 		margin-top: 3rem;
 	}

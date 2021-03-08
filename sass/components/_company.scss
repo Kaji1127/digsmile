@@ -3,6 +3,13 @@
 		width: 73%;
 		margin-left: auto;
 		margin-bottom: 4rem;
+
+		@include respond(tab-port) {
+			width: 95%;
+		}
+		@include respond(phone) {
+			width: 100%;
+		}
 	}
 	&__overview {
 		display: flex;
@@ -12,5 +19,11 @@
 	&__overview-title {
 		width: 10rem;
 		font-weight: 700;
+	}
+	&__img {
+		@include respond(phone) {
+			height: 62rem;
+			object-fit: cover;
+		}
 	}
 }

@@ -209,6 +209,12 @@ body {
   width: 73%;
   margin-left: auto;
   margin-bottom: 4rem; }
+  @media only screen and (max-width: 56.25em) {
+    .company__info {
+      width: 95%; } }
+  @media only screen and (max-width: 37.5em) {
+    .company__info {
+      width: 100%; } }
 
 .company__overview {
   display: flex;
@@ -218,6 +224,11 @@ body {
 .company__overview-title {
   width: 10rem;
   font-weight: 700; }
+
+@media only screen and (max-width: 37.5em) {
+  .company__img {
+    height: 62rem;
+    object-fit: cover; } }
 
 .message {
   position: relative;
@@ -246,6 +257,9 @@ body {
     padding-top: 12rem;
     padding-bottom: 9rem;
     z-index: -1; }
+    @media only screen and (max-width: 37.5em) {
+      .message__text-content {
+        width: 100%; } }
   .message__text-inner {
     max-width: 40rem; }
   .message__text-box {
@@ -255,6 +269,9 @@ body {
 
 .vision {
   margin-left: 23rem; }
+  @media only screen and (max-width: 37.5em) {
+    .vision {
+      margin-left: 0; } }
   .vision__text-content {
     margin-top: 3rem; }
   .vision__text-inner {
@@ -300,7 +317,7 @@ body {
           background-image: url(../img/kv-img@2x.png); } }
     .header__bg--about {
       background-image: url(../img/about-kv.png);
-      background-position: 0 0; }
+      background-position: center top; }
       @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
         .header__bg--about {
           background-image: url(../img/about-kv@2x.png); } }

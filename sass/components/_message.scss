@@ -30,6 +30,10 @@
 		padding-top: 12rem;
 		padding-bottom: 9rem;
 		z-index: -1;
+
+		@include respond(phone) {
+			width: 100%;
+		}
 	}
 
 	&__text-inner {
