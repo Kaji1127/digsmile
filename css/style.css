@@ -288,15 +288,22 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(../img/kv-img.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     z-index: -1;
     filter: brightness(66%); }
-    @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
-      .header__bg {
-        background-image: url(../img/kv-img@2x.png); } }
+    .header__bg--home {
+      background-image: url(../img/kv-img.png); }
+      @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+        .header__bg--home {
+          background-image: url(../img/kv-img@2x.png); } }
+    .header__bg--about {
+      background-image: url(../img/about-kv.png);
+      background-position: 0 0; }
+      @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+        .header__bg--about {
+          background-image: url(../img/about-kv@2x.png); } }
     @media only screen and (max-width: 56.25em) {
       .header__bg {
         width: 78%;
@@ -463,13 +470,6 @@ body {
   @media only screen and (max-width: 37.5em) {
     .section-contact {
       padding-bottom: 4rem; } }
-
-.header__bg--about {
-  background-image: url(../img/about-kv.png);
-  background-position: 0 0; }
-  @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
-    .header__bg--about {
-      background-image: url(../img/about-kv@2x.png); } }
 
 .header__text-box {
   top: 30%; }

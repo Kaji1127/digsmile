@@ -28,15 +28,28 @@
 		position: absolute;
 		top: 0;
 		left: 0;
-		background-image: url(../img/kv-img.png);
+
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
 		z-index: -1;
 		filter: brightness(66%);
 
-		@media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
-			background-image: url(../img/kv-img@2x.png);
+		&--home {
+			background-image: url(../img/kv-img.png);
+
+			@media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+				background-image: url(../img/kv-img@2x.png);
+			}
+		}
+
+		&--about {
+			background-image: url(../img/about-kv.png);
+			background-position: 0 0;
+
+			@media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+				background-image: url(../img/about-kv@2x.png);
+			}
 		}
 
 		@include respond(tab-port) {
