@@ -9,6 +9,7 @@
 @import 'components/button';
 @import 'components/contact';
 @import 'components/topics';
+@import 'components/require';
 @import 'components/works-culture';
 
 @import 'components/company';
@@ -17,8 +18,10 @@
 
 @import 'layout/header';
 @import 'layout/footer';
+@import 'layout/form';
 @import 'layout/grid';
 @import 'layout/navigation';
 
 @import 'pages/home';
 @import 'pages/aboutus';
+@import 'pages/contact-page';

@@ -181,6 +181,13 @@ body {
     display: inline-block;
     padding: 1.2rem 0; }
 
+.require {
+  background-color: #333;
+  color: #fff;
+  padding: 3px 5px;
+  display: inline-block;
+  margin-left: 1.2rem; }
+
 .works-culture {
   display: flex;
   justify-content: space-between; }
@@ -361,6 +368,43 @@ body {
   color: #fff;
   background-color: #525252; }
 
+.form__text {
+  margin-bottom: 5.5rem; }
+
+.form__group {
+  margin-bottom: 4.5rem; }
+
+.form__label {
+  display: block;
+  margin-bottom: 1.2rem; }
+
+.form__input, .form__textarea {
+  display: block;
+  width: 100%; }
+
+.form__radio-container {
+  display: flex; }
+
+.form__radio-group {
+  margin-right: 5rem; }
+
+.form__radio-input {
+  display: none; }
+
+.form__radio-label {
+  position: relative;
+  padding-left: 3rem; }
+
+.form__radio-button {
+  position: absolute;
+  top: -0.1rem;
+  left: 0;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid #333;
+  display: inline-block; }
+
 .container {
   max-width: 110rem;
   margin: 0 auto; }
@@ -504,3 +548,8 @@ body {
 
 .section-company {
   padding-bottom: 12rem; }
+
+.section-form {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 12rem 0; }
