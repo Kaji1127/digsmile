@@ -25,7 +25,7 @@ li {
 	list-style: none;
 }
 html {
-	scroll-behavior: smooth;
+	/* scroll-behavior: smooth; */
 }
 body {
 	min-height: 100vh;
