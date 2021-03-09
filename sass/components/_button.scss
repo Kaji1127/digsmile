@@ -9,6 +9,8 @@
 	background-color: $color-black;
 	letter-spacing: 0.015em;
 	transition: all 0.4s;
+	border: none;
+	cursor: pointer;
 
 	&:hover {
 		box-shadow: 0rem 0.4rem 0.6rem rgba($color-black, 0.5);

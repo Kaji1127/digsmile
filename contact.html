@@ -81,32 +81,32 @@
 						</label>
 						<div class="form__radio-container">
 							<div class="form__radio-group">
-								<input type="radio" class="form__radio-input" name="type" />
-								<label for="" class="form__radio-label">
+								<input type="radio" value="request" id="request" class="form__radio-input" name="type" required />
+								<label for="request" class="form__radio-label">
 									<span class="form__radio-button"></span>
 									製作依頼
 								</label>
 							</div>
 
 							<div class="form__radio-group">
-								<input type="radio" class="form__radio-input" name="type" />
-								<label for="" class="form__radio-label">
+								<input type="radio" value="recruit" id="recruit" class="form__radio-input" name="type" required />
+								<label for="recruit" class="form__radio-label">
 									<span class="form__radio-button"></span>
 									採用
 								</label>
 							</div>
 
 							<div class="form__radio-group">
-								<input type="radio" class="form__radio-input" name="type" />
-								<label for="" class="form__radio-label">
+								<input type="radio" value="ir" id="ir" class="form__radio-input" name="type" required />
+								<label for="ir" class="form__radio-label">
 									<span class="form__radio-button"></span>
 									IR
 								</label>
 							</div>
 
 							<div class="form__radio-group">
-								<input type="radio" class="form__radio-input" name="type" />
-								<label for="" class="form__radio-label">
+								<input type="radio" value="others" id="others" class="form__radio-input" name="type" required />
+								<label for="others" class="form__radio-label">
 									<span class="form__radio-button"></span>
 									その他
 								</label>
@@ -123,29 +123,30 @@
 							お名前
 							<span class="require">必須</span>
 						</label>
-						<input type="text" class="form__input" />
+						<input type="text" class="form__input" required />
 					</div>
 					<div class="form__group">
-						<label for="" class="form__label">
+						<label for="email" class="form__label">
 							メールアドレス
 							<span class="require">必須</span>
 						</label>
-						<input type="text" class="form__input" />
+						<input type="email" id="email" class="form__input" required />
 					</div>
 					<div class="form__group">
 						<label for="" class="form__label">電話番号</label>
-						<input type="text" class="form__input" />
+						<input type="tel" class="form__input" />
 					</div>
 					<div class="form__group">
 						<label for="" class="form__label">
 							お問い合わせ内容
 							<span class="require">必須</span>
 						</label>
-						<textarea name="" id="" cols="30" rows="10" class="form__textarea"></textarea>
+						<textarea name="" id="" cols="30" rows="10" class="form__textarea" required></textarea>
 					</div>
 					<div class="form__group">
 						<div class="form__policy"></div>
 					</div>
+					<button class="btn">送信</button>
 				</form>
 			</div>
 		</div>
