@@ -43,11 +43,19 @@ body {
 .heading-tertiary {
   font-size: 2.4rem; }
 
+.heading-fourth {
+  font-size: 1.6rem;
+  font-weight: 800;
+  text-transform: uppercase; }
+
 .u-right-text {
   text-align: right; }
   @media only screen and (max-width: 56.25em) {
     .u-right-text {
       text-align: left; } }
+
+.u-center-text {
+  text-align: center; }
 
 .u-height {
   height: 60vh !important; }
@@ -373,7 +381,7 @@ body {
 .form__text {
   margin-bottom: 5.5rem; }
 
-.form__group {
+.form__group:not(:nth-last-of-type(2)) {
   margin-bottom: 4.5rem; }
 
 .form__label {
@@ -424,6 +432,54 @@ body {
 
 .form__radio-input:checked ~ .form__radio-label .form__radio-button::after {
   opacity: 1; }
+
+.form__policy {
+  border: 1px solid #333;
+  padding: 1rem;
+  overflow: scroll;
+  height: 25rem; }
+
+.form__policy-text:not(:last-child) {
+  margin-bottom: 3rem; }
+
+.form__check-inner {
+  display: inline-block;
+  position: relative;
+  padding-left: 3rem;
+  margin: 4rem 0;
+  cursor: pointer; }
+
+.form__checkbox {
+  opacity: 0;
+  top: 0;
+  left: 0;
+  position: absolute; }
+
+.form__checkmark {
+  position: absolute;
+  top: 0.1rem;
+  left: 0;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #333; }
+  .form__checkmark::after {
+    content: '';
+    position: absolute;
+    display: none;
+    left: 6px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 2; }
+
+.form__checkbox:checked + .form__checkmark::after {
+  display: block; }
 
 .container {
   max-width: 110rem;
